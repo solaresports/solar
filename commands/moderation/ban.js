@@ -8,7 +8,9 @@ module.exports= {
     let reason = args.slice(1).join(" ");
   
     // MESSAGES
-  
+
+      message.delete().catch(err => console.log(err));
+
     if (!banned) {
       let baninfoembed = new Discord.MessageEmbed()
         .setTitle("Command: ban")
