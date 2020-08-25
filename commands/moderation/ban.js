@@ -82,7 +82,6 @@ module.exports= {
         .setDescription(`Banned user: ${banned.tag}
         Banned by: ${message.author}
         Reason: ${reason}`)
-        .setImage("https://icons.iconarchive.com/icons/icons8/windows-8/32/City-Police-Badge-icon.png")
   
     message.channel.send(successfullyembed);
   }
