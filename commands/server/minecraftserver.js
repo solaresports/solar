@@ -1,8 +1,8 @@
 ﻿const discord = require("discord.js");
 module.exports = {
-    name: 'arkserver',
+    name: 'mcserver',
     category: 'server',
-    description: 'arkserver',
+    description: 'mcserver',
     run: async (bot, message, args, guild) => {
 
         var botIcon = bot.user.displayAvatarURL;
