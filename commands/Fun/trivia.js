@@ -1,4 +1,5 @@
 const { MessageEmbed } = require("discord.js");
+message.delete().catch(err => console.log(err));
 let questions = [
     {
         title: "2+2=?",
