@@ -8,7 +8,6 @@ module.exports = {
         bot.on("message", async message => {
             if (message.author.bot || message.channel.type === "dm") return;
 
-            let prefix = botsettings.prefix;
             let messageArray = message.content.split(" ");
             let cmd = message.Array[0];
             let args = message.content.substring(mesage.conntent.index0f(' ') + 1);
