@@ -1,6 +1,6 @@
-const { MessageCollector } = require('discord.js');
-const MessageModel = require('../models/message');
 
+const MessageModel = require('../models/message');
+const { MessageCollector } = require('discord.js');
 let msgCollectorFilter = (newMsg, originalMsg) => newMsg.author.id === originalMsg.author.id;
 module.exports = {
     run: async (client, message, args) => {
