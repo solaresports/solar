@@ -1,8 +1,8 @@
 const discord = require("discord.js");
 module.exports = {
-    name: 'SRI5',
+    name: 'INFO5',
     category: 'server',
-    description: 'SRI5',
+    description: 'INFO5',
     run: async (bot, message, args, guild) => {
 
         var botIcon = bot.user.displayAvatarURL;
