@@ -9,7 +9,7 @@ module.exports = {
 
         var botEmbed = new discord.MessageEmbed()
             .setTitle("League of Legends - MainTeam")
-            .setDescription(`Apply here by using this link:
+            .setDescription(`[HighElo only] Apply here by using this link:
             https://shorturl.at/ikmuJ`)
             .setFooter("Status: Applications temporarily Open")
             .setColor("#D4AF37")

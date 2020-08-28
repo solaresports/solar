@@ -9,7 +9,7 @@ module.exports = {
 
         var botEmbed = new discord.MessageEmbed()
             .setTitle("Valorant - MainTeam")
-            .setDescription(`Apply here by using this link:
+            .setDescription(`[HighElo Only] Apply here by using this link:
             https://shorturl.at/erwDY`)
             .setFooter("Status: Applications temporarily Open")
             .setColor("#D4AF37")
