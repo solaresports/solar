@@ -1,5 +1,5 @@
 
-const MessageModel = require('../../database/models/message');
+const MessageModel = require('../models/message');
 const { MessageCollector } = require('discord.js');
 module.exports = {
     run: async (client, message, args) => {
