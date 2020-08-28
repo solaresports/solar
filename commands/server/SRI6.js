@@ -10,7 +10,7 @@ module.exports = {
         var botEmbed = new discord.MessageEmbed()
             .setTitle("Verify")
             .setDescription(`    
-             Click on the :white_check_mark: icon to verify yourself`)
+             Click on the :SolarBot: icon to verify yourself`)
             .setColor("#5beb34")
 
         message.delete().catch(err => console.log(err));
