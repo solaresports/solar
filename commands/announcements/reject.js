@@ -7,7 +7,6 @@ module.exports = {
 
         const discord = require("discord.js");
 
-            const sayMessage = args.join(" ");
             let dUser = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
             if (!dUser) return message.channel.send("Can't find user!")
             if (!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("You can't you that command!")
