@@ -19,14 +19,15 @@ module.exports = {
         var botIcon = bot.user.displayAvatarURL;
 
         var botEmbed = new discord.MessageEmbed()
-            .setTitle("Direct Recruitment")
+            .setTitle("Recruitment - Europe")
             .setDescription(`Open possition
+
                              **Elo:** Gold
-                             **Lane:** ADCarry
-                             **Region:** EUW`)
+                             **Role:** AD-Carry`)
             .setColor("#4a77e8")
             .setThumbnail(botIcon)
-            .setThumbnail("https://cdn.discordapp.com/attachments/753079584475578408/753093950113579119/Season_2019_-_Gold_1.png")
+            .setThumbnail("https://cdn.discordapp.com/attachments/745857456307175424/753106821996085248/LOL_Logo.png")
+            .setFooter("League of Legends - Recruitment")
 
         dUser.send(`Hey ${dUser} you placed used a command ${dMessage}
         > Recruitment Messaged Added`)
