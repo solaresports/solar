@@ -25,7 +25,7 @@ module.exports = {
                                  **Rejected By:** ${message.author}`)
                 .setColor("#e67070")
                 .setFooter(`${dMessage}`)
-                .setThumbnail("https://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/48/Close-2-icon.png")
+                .setThumbnail("https://icons.iconarchive.com/icons/elegantthemes/beautiful-flat/48/caution-icon.png")
 
             dUser.send(`${dUser} a application status update by ${message.author}
         Your application has been rejected.

@@ -24,7 +24,7 @@ module.exports = {
                                  **Applicant:** ${dUser}
                                  **Reviewed By:** ${message.author}`)
                 .setColor("#f5d442")
-                .setThumbnail("https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/48/Actions-go-last-view-icon.png")
+                .setThumbnail("https://icons.iconarchive.com/icons/elegantthemes/beautiful-flat/48/cone-icon.png")
 
             dUser.send(`${dUser} a application status update by ${message.author}
         we have some questions for you about your application. We would like to ask these questions in a voice conversation. Join the waiting room as soon as you have time. If you have any questions, you can create a ticket in ask-for-help. Your application will not be accepted until this conversation between us has taken place.

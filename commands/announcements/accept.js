@@ -24,7 +24,7 @@ module.exports = {
                                  **Applicant:** ${dUser}
                                  **Approved By:** ${message.author}`)
                 .setColor("#6cf567")
-                .setThumbnail("https://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/48/Ok-icon.png")
+                .setThumbnail("https://icons.iconarchive.com/icons/elegantthemes/beautiful-flat/48/check-icon.png")
 
             dUser.send(`${dUser} a application status update by ${message.author}
         You are hereby officially accepted as a server member!
