@@ -1,6 +1,6 @@
 ﻿const Discord = require("discord.js");
 module.exports = {
-    name: 'rc lol euw gold adc',
+    name: 'loleuwgoldadc',
     category: 'recruitment',
     description: 'lolgoldadc',
     run: async (bot, message, args) => {
