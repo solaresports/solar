@@ -21,10 +21,10 @@ module.exports = {
                 .setTitle("SOLAR - APPLICATIONS")
                 .setDescription(`Unfortunately your application has been rejected. There are many reasons for rejections, though in many cases it is because we found your drive lacking on this occasion. If you have any questions or want to know exact reasons why your application has been rejected, please contact the staff team. The easiest way to do this is by creating a ticket or by joining the voice support waiting room. You can always make a new application once you have received your feedback, and it often works out well!
 
-                                 **Remarks:** ${dMessage}
                                  **Applicant:** ${dUser}
                                  **Rejected By:** ${message.author}`)
                 .setColor("#e67070")
+                .setFooter(`${dMessage}`)
                 .setThumbnail("https://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/48/Close-2-icon.png")
 
             dUser.send(`${dUser} a application status update by ${message.author}
