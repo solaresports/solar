@@ -22,10 +22,11 @@ module.exports = {
             .setTitle("Direct Recruitment")
             .setDescription(`There is a position available in an existing team.
                              DM The person tagged above the message if your intrested.
-                             Role and rank requirements:`)
+                             Role and rank requirements:
+                             https://cdn.discordapp.com/attachments/753079584475578408/753099897984778321/ap550x55012x121transparentt.u6.png`)
             .setColor("#4a77e8")
             .setThumbnail(botIcon)
-            .setImage("https://cdn.discordapp.com/attachments/753079584475578408/753093950113579119/Season_2019_-_Gold_1.png https://cdn.discordapp.com/attachments/753079584475578408/753099897984778321/ap550x55012x121transparentt.u6.png")
+            .setImage("https://cdn.discordapp.com/attachments/753079584475578408/753093950113579119/Season_2019_-_Gold_1.png")
 
         dUser.send(`Hey ${dUser} you placed used a command ${dMessage}
         > Recruitment Messaged Added`)
