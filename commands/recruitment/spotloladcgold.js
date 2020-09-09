@@ -16,7 +16,6 @@ module.exports = {
                              **Elo:** Gold`)
             .setColor("#4a77e8")
             .setThumbnail(botIcon)
-            .setImage("https://cdn.discordapp.com/attachments/753079584475578408/753093950113579119/Season_2019_-_Gold_1.png")
             .setFooter("You can always apply in (📌join-a-team) This are just direct open spots.")
 
         message.delete().catch(err => console.log(err));
