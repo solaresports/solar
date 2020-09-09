@@ -24,7 +24,7 @@ module.exports = {
                                  **Remarks:** ${dMessage}
                                  **Applicant:** ${dUser}
                                  **Placed By:** ${message.author}`)
-                .setColor("#e67070")
+                .setColor("#f5d442")
                 .setThumbnail("https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/48/Actions-go-last-view-icon.png")
 
             dUser.send(`${dUser} a application status update by ${message.author}
