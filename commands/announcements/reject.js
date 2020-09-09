@@ -21,8 +21,8 @@ module.exports = {
             var botEmbed = new discord.MessageEmbed()
                 .setTitle("APPLICATION - REJECTED")
                 .setDescription("> Unfortunately your application has been rejected. There are many reasons for rejections, though in many cases it is because we found your drive lacking on this occasion. If you have any questions or want to know exact reasons why your application has been rejected, please contact the staff team. The easiest way to do this is by creating a ticket or by joining the voice support waiting room. You can always make a new application once you have received your feedback, and it often works out well!")
-                .setColor("#ff0000")
-                .setImage("https://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/48/Close-2-icon.png")
+                .setColor("#f56767")
+                .setThumbnail("https://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/48/Close-2-icon.png")
 
             dUser.send(`Hey ${dUser} a application status update ${dMessage}
         > Unfortunately,

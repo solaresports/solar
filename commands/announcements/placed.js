@@ -22,9 +22,8 @@ module.exports = {
             var botEmbed = new discord.MessageEmbed()
                 .setTitle("APPLICATION - PLACED")
                 .setDescription("> Congratulations! You are hereby officially placed in to a team. You are added into a new chat down bellow the voice channels. You will also be tagged in this chat. Please read the information and follow the steps in there.")
-                .setColor("#b8ffd9")
-                .setThumbnail(botIcon)
-                .setImage("https://icons.iconarchive.com/icons/inipagi/business-economic/48/team-work-icon.png")
+                .setColor("#67f5c6")
+                .setThumbnail("https://icons.iconarchive.com/icons/inipagi/business-economic/48/team-work-icon.png")
 
             dUser.send(`Hey ${dUser} a application status update ${dMessage}
         > Congratulations!
