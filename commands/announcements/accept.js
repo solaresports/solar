@@ -19,7 +19,12 @@ module.exports = {
 
             var botEmbed = new discord.MessageEmbed()
                 .setTitle("APPLICATION - ACCEPTED")
-                .setDescription(`Congratulations ${dUser}! You are hereby officially accepted as a server member! We will start looking for a team for you in short order, but for now you have access to all our channels and voice channels. Once we have found a team for you, we will let you know. Do you have questions ? The easiest way to do this is by creating a ticket or by joining the voice support waiting room.`)
+                .setDescription(`**User:** ${dUser}
+                                 **Status:** Accepted
+                                 **By:** ${message.author}
+                                 
+                                 **Info:** https://shorturl.at/tKL08
+                                 **Reason:** ${dMessage}`)
                 .setColor("#6cf567")
                 .setThumbnail("https://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/48/Ok-icon.png")
 
