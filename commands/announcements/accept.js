@@ -19,13 +19,11 @@ module.exports = {
 
             var botEmbed = new discord.MessageEmbed()
                 .setTitle("SOLAR - APPLICATIONS")
-                .setDescription(`**User:** ${dUser}
-                                 **By:** ${message.author}
-                                 **Status:** Application Accepted
+                .setDescription(`**Applicant:** ${dUser}
+                                 **Staff Member:** ${message.author}
                                  
-                                 **Reason:** ${dMessage}`)
+                                 Congratulations! You are hereby officially accepted as a server member! We will start looking for a team for you in short order, but for now you have access to all our channels and voice channels. Once we have found a team for you, we will let you know. Do you have questions ? The easiest way to do this is by creating a ticket or by joining the voice support waiting room.`)
                 .setColor("#6cf567")
-                .setFooter("For more information check: https://shorturl.at/tKL08")
                 .setThumbnail("https://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/48/Ok-icon.png")
 
             dUser.send(`Hey ${dUser} a application status update ${dMessage}
