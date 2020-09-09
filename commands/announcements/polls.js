@@ -21,8 +21,7 @@ module.exports = {
                 .setTitle("SOLAR - POLLS")
                 .setDescription(`${dMessage}
                                  
-                                 **Posted By:** ${message.author}
-                                 `)
+                                 **Posted By:** ${message.author}`)
                 .setColor("#71deeb")
                 .setFooter("React on this message to vote")
                 .setThumbnail("https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-6/48/polls-icon.png")

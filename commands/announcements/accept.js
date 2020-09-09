@@ -26,7 +26,7 @@ module.exports = {
                 .setColor("#6cf567")
                 .setThumbnail("https://icons.iconarchive.com/icons/elegantthemes/beautiful-flat/48/check-icon.png")
 
-            dUser.send(`${dUser} a application status update by ${message.author}
+            dUser.send(`${dUser} An application status update by ${message.author}
         You are hereby officially accepted as a server member!
         We will start looking for a team for you in short order, but for now you have access to all our channels and voice channels.
         Once we have found a team for you, we will let you know.
