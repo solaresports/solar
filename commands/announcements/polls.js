@@ -19,9 +19,9 @@ module.exports = {
 
             var botEmbed = new discord.MessageEmbed()
                 .setTitle("SOLAR - POLLS")
-                .setDescription(`**Posted By:** ${message.author}
-                                 ${dMessage}
-
+                .setDescription(`${dMessage}
+                                 
+                                 **Posted By:** ${message.author}
                                  `)
                 .setColor("#71deeb")
                 .setFooter("React on this message to vote")
