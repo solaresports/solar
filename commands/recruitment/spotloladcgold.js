@@ -1,6 +1,6 @@
 ﻿const Discord = require("discord.js");
 module.exports = {
-    name: 'lolgoldadc',
+    name: 'rc lol euw gold adc',
     category: 'recruitment',
     description: 'lolgoldadc',
     run: async (bot, message, args) => {
@@ -20,12 +20,12 @@ module.exports = {
 
         var botEmbed = new discord.MessageEmbed()
             .setTitle("Direct Recruitment")
-            .setDescription(`There is a position available in an existing team.
-                             DM The person tagged above the message if your intrested.
-                             Role and rank requirements:`)
+            .setDescription(`Open possition
+                             **Elo:** Gold
+                             **Lane:** ADCarry
+                             **Region:** EUW`)
             .setColor("#4a77e8")
             .setThumbnail(botIcon)
-            .setImage("https://cdn.discordapp.com/attachments/745857456307175424/753104087138173058/ap550x55012x121transparentt.u6.png")
             .setThumbnail("https://cdn.discordapp.com/attachments/753079584475578408/753093950113579119/Season_2019_-_Gold_1.png")
 
         dUser.send(`Hey ${dUser} you placed used a command ${dMessage}
