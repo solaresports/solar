@@ -20,9 +20,9 @@ module.exports = {
 
             var botEmbed = new discord.MessageEmbed()
                 .setTitle("APPLICATION REJECTED")
-                .setDescription("Unfortunately your application has been rejected. There are many reasons for rejections, though in many cases it is because we found your drive lacking on this occasion. If you have any questions or want to know exact reasons why your application has been rejected, please contact the staff team. The easiest way to do this is by creating a ticket or by joining the voice support waiting room. You can always make a new application once you have received your feedback, and it often works out well!")
+                .setDescription(`Unfortunately ${dUser} your application has been rejected. There are many reasons for rejections, though in many cases it is because we found your drive lacking on this occasion. If you have any questions or want to know exact reasons why your application has been rejected, please contact the staff team. The easiest way to do this is by creating a ticket or by joining the voice support waiting room. You can always make a new application once you have received your feedback, and it often works out well!`)
                 .setColor("#f56767")
-                .setThumbnail("https://cdn.discordapp.com/attachments/745857456307175424/753116062660296734/rejected.pngg")
+                .setThumbnail("https://cdn.discordapp.com/attachments/745857456307175424/753116062660296734/rejected.png")
 
             dUser.send(`Hey ${dUser} a application status update ${dMessage}
         > Unfortunately,
