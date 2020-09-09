@@ -16,7 +16,10 @@ module.exports = {
             /reject @user
             /placed @user
             /giveaway #Channel Duration AmountOfWinners Name
-            /say Message`)
+            /say Message
+            /howlong (reaction for questions about team placement ETA)
+            /howtoapply (reaction for "how to i join a team")
+            /askforhelp (reaction for "How do i get help?"`)
             .setColor("#ebc634")
 
         message.delete().catch(err => console.log(err));
