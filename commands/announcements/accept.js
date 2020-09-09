@@ -18,14 +18,14 @@ module.exports = {
             var botIcon = bot.user.displayAvatarURL;
 
             var botEmbed = new discord.MessageEmbed()
-                .setTitle("APPLICATION - ACCEPTED")
+                .setTitle("SOLAR - APPLICATIONS")
                 .setDescription(`**User:** ${dUser}
-                                 **Status:** Accepted
                                  **By:** ${message.author}
+                                 **Status:** Application Accepted
                                  
-                                 **Info:** https://shorturl.at/tKL08
                                  **Reason:** ${dMessage}`)
                 .setColor("#6cf567")
+                .setFooter("For more information check: https://shorturl.at/tKL08")
                 .setThumbnail("https://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/48/Ok-icon.png")
 
             dUser.send(`Hey ${dUser} a application status update ${dMessage}
