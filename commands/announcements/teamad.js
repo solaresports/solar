@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 module.exports = {
-    name: 'teamad',
+    name: 'recruit',
     category: 'announcements',
-    description: 'teamad',
+    description: 'recruit',
     run: async (bot, message, args) => {
 
         const discord = require("discord.js");
@@ -24,7 +24,7 @@ module.exports = {
 
                                  **Contact:** ${dUser}
                                  `)
-                .setColor("#e67070")
+                .setColor("#a174e8")
                 .setThumbnail("https://icons.iconarchive.com/icons/elegantthemes/beautiful-flat/48/megaphone-icon.png")
 
             dUser.send(`${dUser} a team recruitment post has been made by ${message.author}
