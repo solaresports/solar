@@ -9,7 +9,7 @@ module.exports = {
 
         var botIcon = bot.user.displayAvatarURL;
         var botEmbed = new discord.MessageEmbed()
-            .setTitle("ETA For joining a team")
+            .setTitle("How to apply")
             .setDescription(`    
             You can apply using the channel (📌join-a-team)
             We will announce your application status in (🔔applications) as soon as we reviewd it.`)
