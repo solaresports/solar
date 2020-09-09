@@ -20,13 +20,13 @@ module.exports = {
 
         var botEmbed = new discord.MessageEmbed()
             .setTitle("Recruitment - Europe")
-            .setDescription(`Open possition
+            .setDescription(`Private message the person tagged above this message if you are intrested.
 
                              **Elo:** Gold
                              **Role:** AD-Carry`)
             .setColor("#4a77e8")
             .setThumbnail(botIcon)
-            .setThumbnail("https://cdn.discordapp.com/attachments/745857456307175424/753106821996085248/LOL_Logo.png")
+            .setThumbnail("https://cdn.discordapp.com/attachments/745857456307175424/753107466455351406/LOL_Logo.png")
             .setFooter("League of Legends - Recruitment")
 
         dUser.send(`Hey ${dUser} you placed used a command ${dMessage}
