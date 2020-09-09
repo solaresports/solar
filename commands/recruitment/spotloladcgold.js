@@ -19,9 +19,10 @@ module.exports = {
         var botIcon = bot.user.displayAvatarURL;
 
         var botEmbed = new discord.MessageEmbed()
-            .setTitle("Recruitment - Europe")
-            .setDescription(`**League of Legends - Recruitment**
-
+            .setTitle("Recruitment")
+            .setDescription(`League of Legends - Recruitment
+                             
+                             **Region:** Europe
                              **Elo:** Gold
                              **Role:** AD-Carry`)
             .setColor("#4a77e8")
