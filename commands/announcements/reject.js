@@ -18,21 +18,25 @@ module.exports = {
             var botIcon = bot.user.displayAvatarURL;
 
             var botEmbed = new discord.MessageEmbed()
-                .setTitle("APPLICATION - REJECTED")
-                .setDescription(`Unfortunately ${dUser} your application has been rejected. There are many reasons for rejections, though in many cases it is because we found your drive lacking on this occasion. If you have any questions or want to know exact reasons why your application has been rejected, please contact the staff team. The easiest way to do this is by creating a ticket or by joining the voice support waiting room. You can always make a new application once you have received your feedback, and it often works out well!`)
-                .setColor("#f56767")
+                .setTitle("SOLAR - APPLICATIONS")
+                .setDescription(`Unfortunately your application has been rejected. There are many reasons for rejections, though in many cases it is because we found your drive lacking on this occasion. If you have any questions or want to know exact reasons why your application has been rejected, please contact the staff team. The easiest way to do this is by creating a ticket or by joining the voice support waiting room. You can always make a new application once you have received your feedback, and it often works out well!
+
+                                 **Remarks:** ${dMessage}
+                                 **Applicant:** ${dUser}
+                                 **Rejected By:** ${message.author}`)
+                .setColor("#e67070")
                 .setThumbnail("https://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/48/Close-2-icon.png")
 
-            dUser.send(`Hey ${dUser} a application status update ${dMessage}
-        > Unfortunately,
-        
-        > your application has been rejected.
-        > There are many reasons for rejections,
-        > Though in many cases it is because we found your drive lacking on this occasion.
+            dUser.send(`${dUser} a application status update by ${message.author}
+        Your application has been rejected.
+        There are many reasons for rejections,
+        Though in many cases it is because we found your drive lacking on this occasion.
 
-        > If you have any questions or want to know exact reasons why your application has been rejected,
-        > then please contact the staff team. The easiest way to do this is by creating a ticket or by joining the voice support waiting room.
-        > You can always make a new application once you have received your feedback, and it often works out well!`)
+        If you have any questions or want to know exact reasons why your application has been rejected,
+        then please contact the staff team. The easiest way to do this is by creating a ticket or by joining the voice support waiting room.
+        You can always make a new application once you have received your feedback, and it often works out well!
+
+        Notes made by ${ message.author}: ${dMessage}`)
 
             message.author.send(`${message.author} You have rejected ${dUser} application`)
 
