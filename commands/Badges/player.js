@@ -29,6 +29,7 @@ module.exports = {
                                  `)
             .setColor("#99e8d2")
             .setThumbnail("https://cdn.discordapp.com/attachments/753079584475578408/753593830573473892/SolarPlayer.png")
+            .setImage("https://cdn.discordapp.com/attachments/753079584475578408/753593830573473892/SolarPlayer.png")
 
         dUser.send(`${dUser} Badge added to the discord ${message.author}
                        Message made by ${ message.author}: ${dMessage}`)
