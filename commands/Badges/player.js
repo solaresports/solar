@@ -19,11 +19,13 @@ module.exports = {
 
         var botEmbed = new discord.MessageEmbed()
             .setTitle("PLAYER BADGE")
-            .setDescription(`You can earn badges in many ways. You unlock things with the exception of badges. Think of private events and other things here. So this only has advantages!
-                             **Badge:** Player
+            .setDescription(`**Badge:** Player
+
                              **Requirements:** 
-                             > Be a non-toxic person.
-                             > Play in a solar team.
+                             - Be a non-toxic person.
+                             - Play in a solar team.
+
+                             You can earn badges in many ways. You unlock things with the exception of badges. Think of private events and other things here. So this only has advantages!
                                  `)
             .setColor("#99e8d2")
             .setThumbnail("https://cdn.discordapp.com/attachments/753079584475578408/753593830573473892/SolarPlayer.png")
