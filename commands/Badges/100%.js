@@ -20,12 +20,12 @@ module.exports = {
         var botEmbed = new discord.MessageEmbed()
             .setTitle("100% BADGE")
             .setDescription(`**Badge:** 100%
-
                              **Requirements:** 
                              - You helped someone in need.
                                  `)
             .setColor("#566fba")
             .setThumbnail("https://cdn.discordapp.com/attachments/753079584475578408/753593834663051274/Solar100.png")
+            .setFooter("You can only earn a badge if you achieve the conditions above")
 
         dUser.send(`${dUser} Badge added to the discord ${message.author}
                        Message made by ${ message.author}: ${dMessage}`)
