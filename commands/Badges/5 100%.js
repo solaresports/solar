@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 module.exports = {
-    name: 'badgepresident',
+    name: 'badge100',
     category: 'badges',
-    description: 'badgepresident',
+    description: 'badge100',
     run: async (bot, message, args) => {
 
         const discord = require("discord.js");
@@ -18,13 +18,13 @@ module.exports = {
         var botIcon = bot.user.displayAvatarURL;
 
         var botEmbed = new discord.MessageEmbed()
-            .setTitle("PRESIDENT BADGE")
-            .setDescription(`**Badge:** President
+            .setTitle("100%")
+            .setDescription(`**Badge:** 100%
                              **Requirements:** 
-                             - Owner of the organisation.
+                             - You helped someone in need.
                                  `)
             .setColor("#566fba")
-            .setThumbnail("https://cdn.discordapp.com/attachments/753079584475578408/753593831361871922/SolarPresident.png")
+            .setThumbnail("https://cdn.discordapp.com/attachments/753079584475578408/753593834663051274/Solar100.png")
             .setFooter("You can only earn this badge if you achieve the conditions above. - Solar eSports 2020 Official")
 
         dUser.send(`${dUser} Badge added to the discord ${message.author}

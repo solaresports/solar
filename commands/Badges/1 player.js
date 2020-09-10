@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 module.exports = {
-    name: 'badgefounder',
+    name: 'badgeplayer',
     category: 'badges',
-    description: 'badgefounder',
+    description: 'badgeplayer',
     run: async (bot, message, args) => {
 
         const discord = require("discord.js");
@@ -18,13 +18,14 @@ module.exports = {
         var botIcon = bot.user.displayAvatarURL;
 
         var botEmbed = new discord.MessageEmbed()
-            .setTitle("FOUNDER BADGE")
-            .setDescription(`**Badge:** Founder
+            .setTitle("PLAYER")
+            .setDescription(`**Badge:** Player
                              **Requirements:** 
-                             - You are a Solar Founder.
+                             - Be a non-toxic person.
+                             - Play in a solar team.
                                  `)
             .setColor("#566fba")
-            .setThumbnail("https://cdn.discordapp.com/attachments/753079584475578408/753601554015322162/SolarFounder.png")
+            .setThumbnail("https://cdn.discordapp.com/attachments/753079584475578408/753593830573473892/SolarPlayer.png")
             .setFooter("You can only earn this badge if you achieve the conditions above. - Solar eSports 2020 Official")
 
         dUser.send(`${dUser} Badge added to the discord ${message.author}

@@ -18,7 +18,7 @@ module.exports = {
         var botIcon = bot.user.displayAvatarURL;
 
         var botEmbed = new discord.MessageEmbed()
-            .setTitle("STAFF BADGE")
+            .setTitle("STAFF")
             .setDescription(`**Badge:** Staff
                              **Requirements:** 
                              - Be a Solar staff member.

@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 module.exports = {
-    name: 'badge100',
+    name: 'badgemanagement',
     category: 'badges',
-    description: 'badge100',
+    description: 'badgemanagement',
     run: async (bot, message, args) => {
 
         const discord = require("discord.js");
@@ -18,13 +18,13 @@ module.exports = {
         var botIcon = bot.user.displayAvatarURL;
 
         var botEmbed = new discord.MessageEmbed()
-            .setTitle("100% BADGE")
-            .setDescription(`**Badge:** 100%
+            .setTitle("MANAGEMENT")
+            .setDescription(`**Badge:** Management
                              **Requirements:** 
-                             - You helped someone in need.
+                             - You are apart of the Solar management.
                                  `)
             .setColor("#566fba")
-            .setThumbnail("https://cdn.discordapp.com/attachments/753079584475578408/753593834663051274/Solar100.png")
+            .setThumbnail("https://cdn.discordapp.com/attachments/753079584475578408/753593839041642676/SolarManagement.png")
             .setFooter("You can only earn this badge if you achieve the conditions above. - Solar eSports 2020 Official")
 
         dUser.send(`${dUser} Badge added to the discord ${message.author}
