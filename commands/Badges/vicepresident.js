@@ -20,12 +20,12 @@ module.exports = {
         var botEmbed = new discord.MessageEmbed()
             .setTitle("VICE-PRESIDENT BADGE")
             .setDescription(`**Badge:** Vice President
-
                              **Requirements:** 
                              - Co Owner of the organisation.
                                  `)
             .setColor("#566fba")
             .setThumbnail("https://cdn.discordapp.com/attachments/753079584475578408/753593833740304497/SolarVicePresident.png")
+            .setFooter("You can only earn this badge if you achieve the conditions above. - Solar eSports 2020 Official")
 
         dUser.send(`${dUser} Badge added to the discord ${message.author}
                        Message made by ${ message.author}: ${dMessage}`)

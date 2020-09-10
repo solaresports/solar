@@ -20,12 +20,12 @@ module.exports = {
         var botEmbed = new discord.MessageEmbed()
             .setTitle("FOUNDER BADGE")
             .setDescription(`**Badge:** Founder
-
                              **Requirements:** 
                              - You are a Solar Founder.
                                  `)
             .setColor("#566fba")
             .setThumbnail("https://cdn.discordapp.com/attachments/753079584475578408/753601554015322162/SolarFounder.png")
+            .setFooter("You can only earn this badge if you achieve the conditions above. - Solar eSports 2020 Official")
 
         dUser.send(`${dUser} Badge added to the discord ${message.author}
                        Message made by ${ message.author}: ${dMessage}`)

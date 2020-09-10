@@ -20,12 +20,12 @@ module.exports = {
         var botEmbed = new discord.MessageEmbed()
             .setTitle("STAFF BADGE")
             .setDescription(`**Badge:** Staff
-
                              **Requirements:** 
                              - Be a Solar staff member.
                                  `)
             .setColor("#566fba")
             .setThumbnail("https://cdn.discordapp.com/attachments/753079584475578408/753593832259715110/SolarStaff.png")
+            .setFooter("You can only earn this badge if you achieve the conditions above. - Solar eSports 2020 Official")
 
         dUser.send(`${dUser} Badge added to the discord ${message.author}
                        Message made by ${ message.author}: ${dMessage}`)
