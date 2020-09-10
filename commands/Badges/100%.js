@@ -25,7 +25,7 @@ module.exports = {
                                  `)
             .setColor("#566fba")
             .setThumbnail("https://cdn.discordapp.com/attachments/753079584475578408/753593834663051274/Solar100.png")
-            .setFooter("You can only earn a badge if you achieve the conditions above")
+            .setFooter("You can only earn a badge if you achieve the conditions above. - Solar eSports 2020 Official")
 
         dUser.send(`${dUser} Badge added to the discord ${message.author}
                        Message made by ${ message.author}: ${dMessage}`)
