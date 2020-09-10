@@ -24,10 +24,8 @@ module.exports = {
                              **Requirements:** 
                              - Be a non-toxic person.
                              - Play in a solar team.
-
-                             You can earn badges in many ways. You unlock things with the exception of badges. Think of private events and other things here. So this only has advantages!
                                  `)
-            .setColor("#99e8d2")
+            .setColor("#566fba")
             .setThumbnail("https://cdn.discordapp.com/attachments/753079584475578408/753593830573473892/SolarPlayer.png")
             .setImage("https://cdn.discordapp.com/attachments/745857456307175424/753598692610801824/Player128.png")
 
