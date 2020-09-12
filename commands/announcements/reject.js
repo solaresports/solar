@@ -14,6 +14,7 @@ module.exports = {
             let dMessage = args.join(" ").slice(22);
             let successfullyembed = new Discord.MessageEmbed()
             message.delete().catch(err => console.log(err));
+            message.channel.send(sayMessage);
 
             var botIcon = bot.user.displayAvatarURL;
 
