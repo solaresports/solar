@@ -10,7 +10,7 @@ module.exports = {
         var botEmbed = new discord.MessageEmbed()
             .setTitle("Invite your friends")
             .setDescription(`    
-             > Wanna help us grow? Invite your friends to our amazing community: https://discord.gg/AZn5kgq`)
+             > Wanna help us grow? Invite your friends to our amazing community: https://discord.gg/uSM575F`)
             .setColor("#8a3df0")
 
         message.delete().catch(err => console.log(err));
