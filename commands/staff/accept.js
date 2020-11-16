@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 module.exports = {
-    name: 'accept',
+    name: 'event',
     category: 'announcements',
-    description: 'accept',
+    description: 'event',
     run: async (bot, message, args) => {
 
         const discord = require("discord.js");
@@ -19,11 +19,11 @@ module.exports = {
             var botIcon = bot.user.displayAvatarURL;
 
             var botEmbed = new discord.MessageEmbed()
-                .setTitle("SOLAR - APPLICATIONS")
-                .setDescription(`Congratulations! You are hereby officially accepted as a server member! We will start looking for a team for you in short order, but for now you have access to all our channels and voice channels. Once we have found a team for you, we will let you know. Do you have questions ? The easiest way to do this is by creating a ticket or by joining the voice support waiting room.
+                .setTitle("EWA - EVENT")
+                .setDescription(`Een nieuw event is geplanned
 
-                                 **Applicant:** ${dUser}
-                                 **Approved By:** ${message.author}`)
+                                 **Door:** ${dUser}
+                                 **Wanneer:** Datum`)
                 .setColor("#6cf567")
                 .setThumbnail("https://icons.iconarchive.com/icons/elegantthemes/beautiful-flat/48/check-icon.png")
 
