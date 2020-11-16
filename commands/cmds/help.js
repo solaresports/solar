@@ -1,8 +1,8 @@
 const discord = require("discord.js");
 module.exports = {
-    name: 'cmd1',
+    name: 'help',
     category: 'cmds',
-    description: 'cmd1',
+    description: 'help',
     run: async (bot, message, args, guild) => {
 
         message.delete().catch(err => console.log(err));
@@ -11,15 +11,10 @@ module.exports = {
         var botEmbed = new discord.MessageEmbed()
             .setTitle("Announcements")
             .setDescription(`    
-            /accept @user
-            /accaptacademy @user
-            /reject @user
-            /placed @user
-            /giveaway #Channel Duration AmountOfWinners Name
-            /say Message
-            /howlong (reaction for questions about team placement ETA)
-            /howtoapply (reaction for "how to i join a team")
-            /askforhelp (reaction for "How do i get help?"`)
+            /Clear (amount)
+            /Warn (name) (reason)
+            /Kick (name) (reason)
+            /Ban (name) (reason)"`)
             .setColor("#ebc634")
 
         message.delete().catch(err => console.log(err));
