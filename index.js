@@ -18,9 +18,9 @@ client.on("ready", async () => {
 
     console.log(`${client.user.username} is online!`)
 
-    client.user.setActivity('Applications', { type: 'WATCHING' });
+    client.user.setActivity('Community Manager', { type: 'STREAMING' });
 
 });
 
-//This is hidden when im streaming, Solar Protection.
+//Token is niet zichtbaar in de code documenten
 client.login(process.env.token);
