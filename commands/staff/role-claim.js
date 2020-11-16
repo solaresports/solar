@@ -3,7 +3,7 @@ module.exports = {
     name: 'claim',
     category: 'staff',
     description: 'claim',
-    run: async (bot, message, args, guild) => {
+    run: async (message, args, guild) => {
 
         message.delete()
 
