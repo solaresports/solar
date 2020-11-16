@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 module.exports = {
-    name: 'poll',
+    name: 'vote',
     category: 'announcements',
-    description: 'poll',
+    description: 'vote',
     run: async (bot, message, args) => {
 
         const discord = require("discord.js");
@@ -18,7 +18,7 @@ module.exports = {
             var botIcon = bot.user.displayAvatarURL;
 
             var botEmbed = new discord.MessageEmbed()
-                .setTitle("SOLAR - POLLS")
+                .setTitle("EWA - VOTE")
                 .setDescription(`${dMessage}
                                  
                                  **Posted By:** ${message.author}`)
@@ -27,7 +27,7 @@ module.exports = {
                 .setThumbnail("https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-6/48/polls-icon.png")
 
             dUser.send(`${dUser} A poll has been made by ${message.author}
-                       poll made by ${ message.author}: ${dMessage}`)
+            poll made by ${ message.author}: ${dMessage}`)
 
             return message.channel.send(botEmbed);
         }
