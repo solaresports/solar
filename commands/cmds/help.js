@@ -9,7 +9,7 @@ module.exports = {
 
         var botIcon = bot.user.displayAvatarURL;
         var botEmbed = new discord.MessageEmbed()
-            .setTitle("Announcements")
+            .setTitle("Commands")
             .setDescription(`    
             /Clear (amount)
             /Warn (name) (reason)
