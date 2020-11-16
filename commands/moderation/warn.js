@@ -10,18 +10,6 @@ module.exports = {
             return message.channel.send(`No.`);
         let User = message.mentions.users.first() || null;
 
-        message.delete().catch(err => console.log(err));
-
-        var botIcon = bot.user.displayAvatarURL;
-        var botEmbed = new discord.MessageEmbed()
-            .setTitle("Announcements")
-            .setDescription(`    
-            /Clear (amount)
-            /Warn (name) (reason)
-            /Kick (name) (reason)
-            /Ban (name) (reason)"`)
-            .setColor("#ebc634")
-
         if (User == null) {
             return message.channel.send(`You did not mention a user!`);
         } else {
