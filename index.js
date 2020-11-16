@@ -22,5 +22,17 @@ client.on("ready", async () => {
 
 });
 
+bot.on("messageReactuibAdd", (reaction, user) => {
+    if (user.bot) return;
+    var roleName = reaction.emoji.name;
+    var role = reaction.message.guild.roles.find(role => role.name.toLocaleLowerCase() === roleName.toLocaleLowerCase())
+    var member = reaction.message.guild.members.find(member => member.id === user.id)
+
+    member.addRole(role.id)
+    member.createDM().then(channel => {
+        channel.send(`**De rol ${role.id} Dit is cool he`)
+    });
+})
+
 //Token is niet zichtbaar in de code documenten
 client.login(process.env.token);
