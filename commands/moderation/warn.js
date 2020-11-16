@@ -4,20 +4,23 @@ module.exports = {
     category: "moderation",
     description: "Warn a user of your choice!",
     usage: "<User mention>",
-    run: async (bot, message, args) => {
+    run: async (bot, message, args, guild) => {
         message.delete().catch(err => console.log(err));
         if (!message.member.permissions.has("MANAGE_MESSAGES"))
             return message.channel.send(`No.`);
         let User = message.mentions.users.first() || null;
 
-        var botEmbed = new discord.MessageEmbed()
-            .setTitle("SOLAR - APPLICATIONS")
-            .setDescription(`Congratulations! You are hereby officially accepted as a server member! We will start looking for a team for you in short order, but for now you have access to all our channels and voice channels. Once we have found a team for you, we will let you know. Do you have questions ? The easiest way to do this is by creating a ticket or by joining the voice support waiting room.
+        message.delete().catch(err => console.log(err));
 
-                                 **Applicant:** ${dUser}
-                                 **Approved By:** ${message.author}`)
-            .setColor("#6cf567")
-            .setThumbnail("https://icons.iconarchive.com/icons/elegantthemes/beautiful-flat/48/check-icon.png")
+        var botIcon = bot.user.displayAvatarURL;
+        var botEmbed = new discord.MessageEmbed()
+            .setTitle("Announcements")
+            .setDescription(`    
+            /Clear (amount)
+            /Warn (name) (reason)
+            /Kick (name) (reason)
+            /Ban (name) (reason)"`)
+            .setColor("#ebc634")
 
         if (User == null) {
             return message.channel.send(`You did not mention a user!`);
