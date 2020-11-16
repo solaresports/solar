@@ -1,8 +1,8 @@
 const discord = require("discord.js");
 module.exports = {
-    name: 'help',
+    name: 'commands',
     category: 'cmds',
-    description: 'help',
+    description: 'commands',
     run: async (bot, message, args, guild) => {
 
         message.delete().catch(err => console.log(err));
