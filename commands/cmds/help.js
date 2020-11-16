@@ -10,11 +10,20 @@ module.exports = {
         var botIcon = bot.user.displayAvatarURL;
         var botEmbed = new discord.MessageEmbed()
             .setTitle("Commands")
-            .setDescription(`    
+            .setDescription(` 
+            **Moderation**
             /Clear (amount)
             /Warn (name) (reason)
             /Kick (name) (reason)
-            /Ban (name) (reason)"`)
+            /Ban (name) (reason)
+
+            **Staff Commands**
+            /Say (bericht)
+            /Help
+            /Vote (tagg schrijver) (bericht) 
+
+            **Fun Commands**
+            /Meme`)
             .setColor("#ebc634")
 
         message.delete().catch(err => console.log(err));

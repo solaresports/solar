@@ -1,7 +1,7 @@
 const discord = require("discord.js");
 module.exports = {
     name: 'clear',
-    category: 'server',
+    category: 'moderation',
     description: 'clear',
     run: async (bot, message, args, guild) => {
 
