@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+﻿const Discord = require("discord.js");
 module.exports = {
     name: 'event',
     category: 'announcements',
@@ -24,20 +24,9 @@ module.exports = {
 
                                  **Door:** ${dUser}
                                  **Wanneer:** Datum`)
+                .setFooter("Reageer met ✅ om je deelname aan te geven")
                 .setColor("#6cf567")
-                .setThumbnail("https://icons.iconarchive.com/icons/elegantthemes/beautiful-flat/48/check-icon.png")
-
-            dUser.send(`${dUser} An application status update by ${message.author}
-        You are hereby officially accepted as a server member!
-        We will start looking for a team for you in short order, but for now you have access to all our channels and voice channels.
-        Once we have found a team for you, we will let you know.
-
-        Do you have questions?
-        The easiest way to do this is by creating a ticket or by joining the voice support waiting room.
-
-        Notes made by ${message.author}: ${dMessage}`)
-
-            message.author.send(`${message.author} You have accepted ${dUser} as a member`)
+                .setThumbnail("https://cdn.discordapp.com/attachments/777316504878317618/777905038768078868/EWA_Discord.png")
 
             return message.channel.send(botEmbed);
         }
