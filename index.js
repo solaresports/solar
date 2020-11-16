@@ -22,7 +22,7 @@ client.on("ready", async () => {
 
 });
 
-bot.on("messageReactuibAdd", (reaction, user) => {
+bot.on("messageReactuibAdd", (bot, reaction, user) => {
     if (user.bot) return;
     var roleName = reaction.emoji.name;
     var role = reaction.message.guild.roles.find(role => role.name.toLocaleLowerCase() === roleName.toLocaleLowerCase())
