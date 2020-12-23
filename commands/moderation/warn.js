@@ -21,7 +21,7 @@ module.exports = {
             }
             let Avatar = User.displayAvatarURL();
             let Channel = message.guild.channels.cache.find(
-                (ch) => ch.name === "warns"
+                (ch) => ch.name === "💬warns"
             );
             if (!Channel)
                 return message.channel.send(
