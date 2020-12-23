@@ -47,12 +47,6 @@ module.exports = {
                     }
                 );
 
-                dUser.send(`${dUser} Je hebt een warning gekregen van ${message.author}
-                Je hebt een warning ontvangen, dit stond er in de reden:
-                ${ message.author}: ${dMessage}`)
-        
-                    message.author.send(`${message.author} Je hebt ${dUser} een warning gegeven`)
-
             Channel.send(Embed);
         }
     },
