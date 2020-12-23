@@ -18,10 +18,10 @@ module.exports = {
 
             **4:** Maak geen reclame in deze discord. Dit is niet toegestaan.
 
-            **5:** Praten over ingame dingen van TDA is niet toegestaan. houd dit stream related, Geen meta.
+            **5:** Praten over ingame dingen van TDA is niet toegestaan. dat betekend dus bij TDA related vragen of problemen kun je bij het officiele TDA server ticket aanmaken. houd dit stream related, Geen meta.
 
             **6:** Vraag niet om een rang, en of andere goederen.
-            
+
             **7:** Verkoop geen goederen in onze discord.`)
             .setColor("#8a3df0")
 
