@@ -7,7 +7,7 @@ module.exports = {
     run: async (bot, message, args, guild) => {
         message.delete().catch(err => console.log(err));
         if (!message.member.permissions.has("MANAGE_MESSAGES"))
-            return message.channel.send(`No.`);
+            return message.channel.send(`Nee dit mag jij niet doen.`);
         let User = message.mentions.users.first() || null;
 
         if (User == null) {
