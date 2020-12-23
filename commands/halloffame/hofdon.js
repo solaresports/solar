@@ -1,8 +1,8 @@
 ﻿const Discord = require("discord.js");
 module.exports = {
-    name: 'hof1',
+    name: 'hofdon',
     category: 'announcements',
-    description: 'hof1',
+    description: 'hofdon',
     run: async (bot, message, args) => {
 
         const discord = require("discord.js");
@@ -23,7 +23,7 @@ module.exports = {
                 .setDescription(`Dit is een ware held!
 
                                  **Door:** ${dUser}
-                                 **Bits:** 850`)
+                                 **Donatie:** 30+ EURO`)
                 .setFooter("Reageer even met een ❤️")
                 .setColor("#56ccb6")
                 .setThumbnail("https://icons.iconarchive.com/icons/fixicon/crown/48/napoleon-icon.png")
