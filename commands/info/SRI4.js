@@ -9,7 +9,8 @@ module.exports = {
 
         var botEmbed = new discord.MessageEmbed()
             .setTitle("Ons Team")
-            .setDescription(`    
+            .setDescription(`
+            Hier staat een lijstje met alle namen van mensen die helpen bij / aan de stream van TDA_Stevex. Dit zijn dus gewoon helden!    
              **Steamer**
              - [TDA] Remco D
              

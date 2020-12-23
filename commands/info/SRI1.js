@@ -23,7 +23,7 @@ module.exports = {
             **6:** Vraag niet om een rang, en of andere goederen.
 
             **7:** Verkoop geen goederen in onze discord.`)
-            .setColor("#8a3df0")
+            .setColor("#4EF0E8")
 
         message.delete().catch(err => console.log(err));
         return message.channel.send(botEmbed);
