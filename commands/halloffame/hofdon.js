@@ -21,7 +21,8 @@ module.exports = {
             var botEmbed = new discord.MessageEmbed()
                 .setTitle("HALL OF FAME")
                 .setDescription(`Dit is een ware held!
-
+                                 Je hebt je plek in de hall of fame dik verdiend!
+                                 
                                  **Door:** ${dUser}
                                  **Donatie:** 30+ EURO`)
                 .setFooter("Reageer even met een ❤️")
