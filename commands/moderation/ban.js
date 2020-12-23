@@ -6,8 +6,6 @@ module.exports= {
   run: async(client,message,args,guild) => {
     let banned = message.mentions.users.first() || client.users.resolve(args[0]);
     let reason = args.slice(1).join(" ");
-  
-    // MESSAGES
 
       message.delete().catch(err => console.log(err));
 
@@ -33,7 +31,7 @@ module.exports= {
   
     if (message.author === banned) {
       let sanctionyourselfembed = new Discord.MessageEmbed()
-          .setTitle(`Solar Punishment`)
+          .setTitle(`EWA Punishment`)
           .setDescription(`You cannot ban your self`)
           .setColor("#66f3c9")
       message.channel.send(sanctionyourselfembed);
@@ -43,7 +41,7 @@ module.exports= {
   
     if (!reason) {
         let noreasonembed = new Discord.MessageEmbed()
-        .setTitle(`Solar Punishment`)
+        .setTitle(`EWA Punishment`)
         .setDescription(`Enter a reason`)
         .setColor("#66f3c9")
       message.channel.send(noreasonembed);
@@ -53,7 +51,7 @@ module.exports= {
   
     if (!message.member.permissions.has("BAN_MEMBERS")) {
         let nopermsembed = new Discord.MessageEmbed()
-        .setTitle(`Solar Punishment`)
+        .setTitle(`EWA Punishment`)
         .setDescription(
           "You do not have permissions to do this!"
         )

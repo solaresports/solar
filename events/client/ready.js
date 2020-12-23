@@ -1,9 +1,9 @@
 module.exports = client => {
-    console.log("[Solar] - 100%");
-    console.log("[Solar] - Version: 1.2");
-    console.log("[Solar] - Lastupdate: 24/08/2020");
-    console.log("[Solar] - Developer: Aspect");
-    console.log("[Solar] - All rights reserved for: Solar eSports 2020");
-    console.log("[Solar] - Discord.eula");
+    console.log("[EWA] - 100%");
+    console.log("[EWA] - Version: 1.2");
+    console.log("[EWA] - Lastupdate: 16-11-2020");
+    console.log("[EWA] - Developer: Stevex");
+    console.log("[EWA] - All rights reserved for: EWA-eSports");
+    console.log("[EWA] - Discord.eula");
 
 }

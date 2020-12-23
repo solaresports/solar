@@ -32,7 +32,7 @@ module.exports= {
   
     if (message.author === kicked) {
         let sanctionyourselfembed = new Discord.MessageEmbed()
-           .setTitle(`Solar Punishment`)
+           .setTitle(`EWA Punishment`)
            .setDescription(`You cannot sanction yourself`)
            .setColor("#66f3c9");
       message.channel.send(sanctionyourselfembed);
@@ -44,7 +44,7 @@ module.exports= {
       let noreasonembed = new Discord.MessageEmbed()
         .setDescription(`Enter a reason`)
         .setColor("#66f3c9")
-        .setTitle(`Solar Punishment`)
+        .setTitle(`EWA Punishment`)
       message.channel.send(noreasonembed);
   
       return;

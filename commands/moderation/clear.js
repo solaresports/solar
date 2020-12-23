@@ -1,7 +1,7 @@
 const discord = require("discord.js");
 module.exports = {
     name: 'clear',
-    category: 'server',
+    category: 'moderation',
     description: 'clear',
     run: async (bot, message, args, guild) => {
 
@@ -17,7 +17,7 @@ module.exports = {
 
                 if (args[0] == 0) {
 
-                    message.reply(`For real? GG Reported you are trolling me, i cant remove 0 messages...`).then(msg => msg.delete({ timeout: 3000 }));
+                    message.reply(`You can't remove 0 messages`).then(msg => msg.delete({ timeout: 3000 }));
 
                 } else if (args[0] == 1) {
 

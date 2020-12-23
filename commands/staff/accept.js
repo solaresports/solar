@@ -1,8 +1,8 @@
-const Discord = require("discord.js");
+﻿const Discord = require("discord.js");
 module.exports = {
-    name: 'poll',
+    name: 'event',
     category: 'announcements',
-    description: 'poll',
+    description: 'event',
     run: async (bot, message, args) => {
 
         const discord = require("discord.js");
@@ -14,20 +14,19 @@ module.exports = {
             let dMessage = args.join(" ").slice(22);
             let successfullyembed = new Discord.MessageEmbed()
             message.delete().catch(err => console.log(err));
+            message.channel.send(sayMessage);
 
             var botIcon = bot.user.displayAvatarURL;
 
             var botEmbed = new discord.MessageEmbed()
-                .setTitle("SOLAR - POLLS")
-                .setDescription(`${dMessage}
-                                 
-                                 **Posted By:** ${message.author}`)
-                .setColor("#71deeb")
-                .setFooter("React on this message to vote")
-                .setThumbnail("https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-6/48/polls-icon.png")
+                .setTitle("EWA - EVENT")
+                .setDescription(`Een nieuw event is geplanned
 
-            dUser.send(`${dUser} A poll has been made by ${message.author}
-                       poll made by ${ message.author}: ${dMessage}`)
+                                 **Door:** ${dUser}
+                                 **Wanneer:** Datum`)
+                .setFooter("Reageer met ✅ om je deelname aan te geven")
+                .setColor("#6cf567")
+                .setThumbnail("https://cdn.discordapp.com/attachments/777316504878317618/777905038768078868/EWA_Discord.png")
 
             return message.channel.send(botEmbed);
         }

@@ -1,10 +1,10 @@
 const { MessageEmbed } = require("discord.js");
 module.exports = {
-    name: "report",
+    name: "warn",
     category: "moderation",
-    description: "Report a user of your choice!",
+    description: "Warn a user of your choice!",
     usage: "<User mention>",
-    run: async (bot, message, args) => {
+    run: async (bot, message, args, guild) => {
         message.delete().catch(err => console.log(err));
         if (!message.member.permissions.has("MANAGE_MESSAGES"))
             return message.channel.send(`No.`);
@@ -21,14 +21,14 @@ module.exports = {
             }
             let Avatar = User.displayAvatarURL();
             let Channel = message.guild.channels.cache.find(
-                (ch) => ch.name === "reports"
+                (ch) => ch.name === "warns"
             );
             if (!Channel)
                 return message.channel.send(
-                    `There is no channel in this guild which is called \`reports\``
+                    `There is no channel in this guild which is called \`warns\``
                 );
             let Embed = new MessageEmbed()
-                .setTitle(`New report!`)
+                .setTitle(`New warn!`)
                 .setDescription(
                     `The moderator \`${message.author.tag}\` has reported the user \`${User.tag}\`! `
                 )
@@ -37,8 +37,8 @@ module.exports = {
                 .addFields(
                     { name: "Mod ID", value: `${message.author.id}`, inline: true },
                     { name: "Mod Tag", value: `${message.author.tag}`, inline: true },
-                    { name: "Reported ID", value: `${User.id}`, inline: true },
-                    { name: "Reported Tag", value: `${User.tag}`, inline: true },
+                    { name: "Warned ID", value: `${User.id}`, inline: true },
+                    { name: "Warned Tag", value: `${User.tag}`, inline: true },
                     { name: "Reason", value: `\`${Reason.slice(1)}\``, inline: true },
                     {
                         name: "Date (M/D/Y)",
