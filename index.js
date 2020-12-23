@@ -18,9 +18,8 @@ client.on("ready", async () => {
 
     console.log(`${client.user.username} is online!`)
 
-    client.user.setActivity('Applications', { type: 'WATCHING' });
+    client.user.setActivity('TDA Stevex', { type: 'WATCHING' });
 
 });
 
-//This is hidden when im streaming, Solar Protection.
 client.login(process.env.token);

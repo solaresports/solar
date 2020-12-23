@@ -1,5 +1,5 @@
 {
-  "name": "solar",
+  "name": "Stevex",
   "version": "1.0.0",
   "description": "Solar official bot",
   "main": "main.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon"
   },
-  "author": "Aspect",
+  "author": "Remco",
   "license": "ISC",
   "dependencies": {
     "ascii-table": "0.0.9",
