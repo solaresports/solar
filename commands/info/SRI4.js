@@ -10,7 +10,7 @@ module.exports = {
         var botEmbed = new discord.MessageEmbed()
             .setTitle("Ons Team")
             .setDescription(`
-            Hier staat een lijstje met alle namen van mensen die helpen bij / aan de stream. 
+            Hier staat onze hall of fame, dit zijn helden die mee werken aan de livestream. Moderaten, editen, of een grote bijdragen hebben geleverd aan de stream.
 
              **Steamer**
              - [TDA] Remco D
@@ -19,7 +19,7 @@ module.exports = {
              - Daphne
              
              **Moderator**
-             - Aklaz
+             - Ozzie
              - Kerrie
              - Lootjuh_NL
              - Neitna
