@@ -7,7 +7,7 @@ module.exports = {
     run: async (bot, message, args, guild) => {
         message.delete().catch(err => console.log(err));
         if (!message.member.permissions.has("MANAGE_MESSAGES"))
-            return message.channel.send(`Nee dit mag jij niet doen.`);
+            return message.channel.send(`No.`);
         let User = message.mentions.users.first() || null;
 
         if (User == null) {
@@ -46,7 +46,6 @@ module.exports = {
                         inline: true,
                     }
                 );
-
             Channel.send(Embed);
         }
     },
