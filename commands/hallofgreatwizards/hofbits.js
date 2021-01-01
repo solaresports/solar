@@ -2,7 +2,7 @@
 module.exports = {
     name: 'hofbits',
     category: 'announcements',
-    description: 'hofbits',
+    description: 'howbits',
     run: async (bot, message, args) => {
 
         const discord = require("discord.js");
@@ -19,15 +19,15 @@ module.exports = {
             var botIcon = bot.user.displayAvatarURL;
 
             var botEmbed = new discord.MessageEmbed()
-                .setTitle("HALL OF FAME")
-                .setDescription(`Dit is een ware held!
-                                 Je hebt je plek in de hall of fame dik verdiend!
+                .setTitle("HALL OF GREAT WIZARDS")
+                .setDescription(`YOUUU SHALL PASS
+                                 Je hebt een heel moeilijke spell unlockt welkom bij de grootmeesters
 
                                  **Door:** ${dUser}
-                                 **Bits:** 1000+`)
-                .setFooter("Reageer even met een ❤️")
-                .setColor("#56ccb6")
-                .setThumbnail("https://icons.iconarchive.com/icons/fixicon/crown/48/napoleon-icon.png")
+                                 **Bits:** 500+`)
+                .setFooter("Look into the crystal ball! 🔮")
+                .setColor("#75178f")
+                .setThumbnail("https://icons.iconarchive.com/icons/aha-soft/free-large-boss/48/Wizard-icon.png")
 
             return message.channel.send(botEmbed);
         }
