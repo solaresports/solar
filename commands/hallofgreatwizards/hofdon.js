@@ -1,8 +1,8 @@
 ﻿const Discord = require("discord.js");
 module.exports = {
-    name: 'hofdon',
+    name: 'howdon',
     category: 'announcements',
-    description: 'hofdon',
+    description: 'howdon',
     run: async (bot, message, args) => {
 
         const discord = require("discord.js");
@@ -19,15 +19,19 @@ module.exports = {
             var botIcon = bot.user.displayAvatarURL;
 
             var botEmbed = new discord.MessageEmbed()
-                .setTitle("HALL OF FAME")
-                .setDescription(`Dit is een ware held!
-                                 Je hebt je plek in de hall of fame dik verdiend!
-                                 
+                .setTitle("HALL OF GREAT WIZARDS")
+                .setDescription(`YOUUU SHALL PASS
+
+                                 Je hebt een heel moeilijke spell unlockt,
+                                 Welkom bij de grootmeesters
+
                                  **Door:** ${dUser}
-                                 **Donatie:** 30+ EURO`)
-                .setFooter("Reageer even met een ❤️")
-                .setColor("#56ccb6")
-                .setThumbnail("https://icons.iconarchive.com/icons/fixicon/crown/48/napoleon-icon.png")
+                                 **Bits:** €20,00 +`)
+                .setFooter("Look into the crystal ball! 🔮")
+                .setColor("#75178f")
+                .setThumbnail("https://icons.iconarchive.com/icons/aha-soft/free-large-boss/48/Wizard-icon.png")
+                .setImage("https://cdn.discordapp.com/attachments/773961994217979905/794691452554051634/tenor_1.gif")
+
 
             return message.channel.send(botEmbed);
         }
