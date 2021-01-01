@@ -23,7 +23,7 @@ module.exports= {
             "-ban <@597253939469221891> 48h spam \n" +
             "-ban save <@597253939469221891> 48h spam "
         )
-          .setColor("#66f3c9")
+          .setColor("#9614c9")
       message.channel.send(baninfoembed);
   
       return;
@@ -31,9 +31,9 @@ module.exports= {
   
     if (message.author === banned) {
       let sanctionyourselfembed = new Discord.MessageEmbed()
-          .setTitle(`EWA Punishment`)
-          .setDescription(`You cannot ban your self`)
-          .setColor("#66f3c9")
+          .setTitle(`Avoc Strafcenter`)
+          .setDescription(`Je kan je zelf niet straffen!`)
+          .setColor("#9614c9")
       message.channel.send(sanctionyourselfembed);
   
       return;
@@ -41,9 +41,9 @@ module.exports= {
   
     if (!reason) {
         let noreasonembed = new Discord.MessageEmbed()
-        .setTitle(`EWA Punishment`)
-        .setDescription(`Enter a reason`)
-        .setColor("#66f3c9")
+        .setTitle(`Avoc Strafcenter`)
+        .setDescription(`Waarom is deze persoon stout?`)
+        .setColor("#9614c9")
       message.channel.send(noreasonembed);
   
       return;
@@ -51,9 +51,9 @@ module.exports= {
   
     if (!message.member.permissions.has("BAN_MEMBERS")) {
         let nopermsembed = new Discord.MessageEmbed()
-        .setTitle(`EWA Punishment`)
+        .setTitle(`Avoc Strafcenter`)
         .setDescription(
-          "You do not have permissions to do this!"
+          "Je kunt deze spreuk nog niet uitvoeren, even oefenen dus!"
         )
           .setColor("#66f3c9")
       message.channel.send(nopermsembed);
@@ -64,7 +64,7 @@ module.exports= {
     if (!message.guild.me.permissions.has("BAN_MEMBERS")) {
       let botnopermsembed = new Discord.MessageEmbed()
           .setDescription(
-            "You do not have permissions to do this!"
+            "Je kunt deze spreuk nog niet uitvoeren, even oefenen dus!"
         )
           .setColor("#66f3c9")
       message.channel.send(botnopermsembed);

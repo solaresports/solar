@@ -7,7 +7,7 @@ module.exports = {
 
         if (!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply("Je hebt geen toestemming");
 
-        if (!args[0]) return message.reply("Add a amount you wanna clear");
+        if (!args[0]) return message.reply("Zet je bril eens op! Je moet wel een aantal toevoegen!");
 
         if (Number.isInteger(parseInt(args[0]))) {
 
@@ -17,22 +17,22 @@ module.exports = {
 
                 if (args[0] == 0) {
 
-                    message.reply(`You can't remove 0 messages`).then(msg => msg.delete({ timeout: 3000 }));
+                    message.reply(`Probeer je nu 0 berichten te verwijderen...`).then(msg => msg.delete({ timeout: 3000 }));
 
                 } else if (args[0] == 1) {
 
-                    message.reply(`I removed 1 message.`).then(msg => msg.delete({ timeout: 3000 }));
+                    message.reply(`Ik heb 1 bericht voor je verwijderd!`).then(msg => msg.delete({ timeout: 3000 }));
 
                 } else {
 
-                    message.reply(`I removed ${args[0]} messages.`).then(msg => msg.delete({ timeout: 3000 }));
+                    message.reply(`Ik heb ${args[0]} berichten voor je verwijderd.`).then(msg => msg.delete({ timeout: 3000 }));
 
                 }
 
             });
 
         } else {
-            return message.reply("Provide a amount");
+            return message.reply("Zet je bril eens op! Je moet wel een aantal toevoegen!");
         }
     }
 }
