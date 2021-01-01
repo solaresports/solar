@@ -8,21 +8,15 @@ module.exports = {
         var botIcon = bot.user.displayAvatarURL;
 
         var botEmbed = new discord.MessageEmbed()
-            .setTitle("Discord Regels")
+            .setTitle("Rules English")
             .setDescription(`    
-            **1:** Gedraag je in de chat, wees aardig tegen elkaar en laat iedereen in zijn of haar waarden.
+            **1.** Have respect for everyone in this Discord
 
-            **2:** Geen discriminatie, Racisme, of andere onnodige uitingen.
+            **2.** No racism/discriminating
 
-            **3:** Staff is hier om alles rustig te houden, luister dan ook naar hun.
+            **3.** No Harassment talking in chat
 
-            **4:** Maak geen reclame in deze discord. Dit is niet toegestaan.
-
-            **5:** Praten over ingame dingen van TDA is niet toegestaan. dat betekend dus bij TDA related vragen of problemen kun je bij het officiele TDA server ticket aanmaken. houd dit stream related, Geen meta.
-
-            **6:** Vraag niet om een rang, en of andere goederen.
-
-            **7:** Verkoop geen goederen in onze discord.`)
+            **4.** No Spamming`)
             .setColor("#4EF0E8")
 
         message.delete().catch(err => console.log(err));

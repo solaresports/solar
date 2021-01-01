@@ -8,9 +8,15 @@ module.exports = {
         var botIcon = bot.user.displayAvatarURL;
 
         var botEmbed = new discord.MessageEmbed()
-            .setTitle("Nodig je vrienden uit")
+            .setTitle("Join de stream gezellig!")
             .setDescription(`    
-             Natuurlijk is gezelligheid altijd welkom, wil jij samen met je vrienden hier wat gamen. Nodig ze dan vooral uit. Dit kan je doen met de volgende invite link: https://discord.gg/9rwdUjZata`)
+             Kom gezellig de stream in,
+             Volg me alvast, Dit kan je hier doen: https://www.twitch.tv/1avoc1
+             
+             Wil je gezellig met vrienden gamen in mijn discord?
+             Dit is een invite link: https://discord.gg/w2dJ3n5tTR
+             
+             Voel je vrij om je vrienden te invite in mijn discord!`)
             .setColor("#4EF0E8")
 
         message.delete().catch(err => console.log(err));

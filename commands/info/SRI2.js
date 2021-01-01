@@ -8,9 +8,15 @@ module.exports = {
         var botIcon = bot.user.displayAvatarURL;
 
         var botEmbed = new discord.MessageEmbed()
-            .setTitle("Vraag om hulp")
+            .setTitle("Regels Nederlands")
             .setDescription(`    
-            Als je hulp nodig hebt, mag je een @moderator taggen in de chat. Deze zullen reageren op jou vraag en dit zo snel mogelijk behandelen. Keep in mind, dat iedereen dit vrijwillig doet. En dus ook niet altijd direct kan antwoorden. Graag vragen wij ook respect voor de moderators.!`)
+            **1.** Heb respect voor iedereen in deze discord
+
+            **2.** Geen racisme/discriminerend
+
+            **3.** Geen intimidatie in deze chat
+
+            **4.** No Spamming`)
             .setColor("#4EF0E8")
 
         message.delete().catch(err => console.log(err));
