@@ -77,9 +77,9 @@ module.exports= {
     let successfullyembed = new Discord.MessageEmbed()
         .setColor("#a539a8")
         .setTitle(`${banned.tag} Youuuuuu have been banned`)
-        .setDescription(`Banned user: ${banned.tag}
-        Banned by: ${message.author}
-        Reason: ${reason}`)
+        .setDescription(`**Banned user:** ${banned.tag}
+        **Banned by:** ${message.author}
+        **Reason:** ${reason}`)
         .setThumbnail("https://cdn.discordapp.com/attachments/773961994217979905/794685850373455902/464-4641772_glitchtale-ban-hammer-hd-png-download.png")
         .setImage("https://cdn.discordapp.com/attachments/773961994217979905/794684659685392384/tenor.gif")
   
