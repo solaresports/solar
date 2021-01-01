@@ -76,11 +76,11 @@ module.exports= {
   
     let successfullyembed = new Discord.MessageEmbed()
         .setColor("#66f3c9")
-        .setTitle(`${banned.tag} You have been banned`)
+        .setTitle(`${banned.tag} Youuuuuu have been banned`)
         .setDescription(`Banned user: ${banned.tag}
         Banned by: ${message.author}
         Reason: ${reason}`)
-        .setThumbnail("https://www.google.nl/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fsearch%2Fwizard-gifs&psig=AOvVaw1a1nmhVPApt2xBdMeksU2M&ust=1609624212569000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjvk83b--0CFQAAAAAdAAAAABAD")
+        .setThumbnail("https://cdn.discordapp.com/attachments/773961994217979905/794684659685392384/tenor.gif")
   
     message.channel.send(successfullyembed);
   }
