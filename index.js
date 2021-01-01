@@ -18,7 +18,7 @@ client.on("ready", async () => {
 
     console.log(`${client.user.username} is online!`)
 
-    client.user.setActivity('TDA Stevex', { type: 'WATCHING' });
+    client.user.setActivity('Over his gate', { type: 'WATCHING' });
 
 });
 
