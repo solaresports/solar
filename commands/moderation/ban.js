@@ -75,7 +75,7 @@ module.exports= {
     message.guild.members.ban(banned, { reason: reason });
   
     let successfullyembed = new Discord.MessageEmbed()
-        .setColor("#66f3c9")
+        .setColor("#a539a8")
         .setTitle(`${banned.tag} Youuuuuu have been banned`)
         .setDescription(`Banned user: ${banned.tag}
         Banned by: ${message.author}
