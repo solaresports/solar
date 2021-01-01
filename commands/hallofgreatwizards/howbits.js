@@ -27,12 +27,13 @@ module.exports = {
 
                                  **Door:** ${dUser}
                                  **Bits:** 500+`)
-                .setFooter("Look into the crystal ball! 🔮")
-                .setColor("#75178f")
                 .setThumbnail("https://icons.iconarchive.com/icons/aha-soft/free-large-boss/48/Wizard-icon.png")
                 .setImage("https://cdn.discordapp.com/attachments/773961994217979905/794691452554051634/tenor_1.gif") 
+                .setFooter("Look into the crystal ball! 🔮")
+                .setColor("#75178f")
 
-                
+
+
             return message.channel.send(botEmbed);
         }
 }
