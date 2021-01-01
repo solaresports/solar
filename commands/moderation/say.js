@@ -10,7 +10,7 @@ module.exports = {
         var botIcon = bot.user.displayAvatarURL;
         var botEmbed = new discord.MessageEmbed()
         const sayMessage = args.join(" ");
-        if (!message.member.hasPermission("ADMINISTRATOR")) return message.reply("You can't you that command!")
+        if (!message.member.hasPermission("ADMINISTRATOR")) return message.reply("Je kunt deze spreuk nog niet uitvoeren, even oefenen dus!")
         let dMessage = args.join(" ").slice(22);
         let successfullyembed = new discord.MessageEmbed()
         message.delete().catch(err => console.log(err));
