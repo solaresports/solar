@@ -21,7 +21,9 @@ module.exports = {
             var botEmbed = new discord.MessageEmbed()
                 .setTitle("HALL OF GREAT WIZARDS")
                 .setDescription(`YOUUU SHALL PASS
-                                 Je hebt een heel moeilijke spell unlockt welkom bij de grootmeesters
+
+                                 Je hebt een heel moeilijke spell unlockt,
+                                 Welkom bij de grootmeesters
 
                                  **Door:** ${dUser}
                                  **Bits:** 500+`)
